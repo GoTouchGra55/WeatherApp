@@ -19,8 +19,6 @@ export default function App() {
     getWeather();
   }, [location]);
 
-  console.log(weather);
-
   return (
     <>
       <GetUserInput onSubmit={setLocation}/>
