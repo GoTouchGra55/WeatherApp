@@ -1,0 +1,32 @@
+:root {
+  --border-rad: 1.2rem;
+}
+
+.formComponents {
+  background-image: linear-gradient(180deg, rgba(28, 49, 68, 0.644), rgba(0, 0, 0, 0));
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationInp, .submitBtn {
+  border: 1px solid black;
+  font-size: medium;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.locationInp {
+  padding: 8px 15px;
+  border-bottom-left-radius: var(--border-rad);
+  border-top-left-radius: var(--border-rad);
+}
+
+.submitBtn {
+  padding: 6.6px;
+  border-left: none;
+  border-bottom-right-radius: var(--border-rad);
+  border-top-right-radius: var(--border-rad);
+}

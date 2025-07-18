@@ -1,0 +1,39 @@
+:root {
+  --border-radius: 1rem;
+}
+
+.weatherCard {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 0.75rem;
+}
+
+h2:last-child {
+  margin-bottom: 1rem;
+}
+
+.weatherCard, .loadingCard {
+  background-color: #c9c19f2d;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  border-radius: var(--border-radius);
+  margin: auto;
+  margin-top: 2.5rem;
+  width: min(400px, 70%);
+}
+
+.loadingCard {
+  text-align: center;
+  padding: 1.5rem 0;
+}
